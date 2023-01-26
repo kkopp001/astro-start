@@ -2,11 +2,16 @@ html {
   background-color: #c3ccd4;
   font-family: sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
+  height: 100vh;
   padding: 1rem;
   line-height: 1.5;
 }
@@ -78,4 +83,13 @@ a:focus {
   .hamburger {
     display: none;
   }
+}
+
+.dark body {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
